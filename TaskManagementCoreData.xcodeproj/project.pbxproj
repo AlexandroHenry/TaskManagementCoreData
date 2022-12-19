@@ -13,6 +13,10 @@
 		AA3D678C2950573C0092E2D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3D678B2950573C0092E2D6 /* Preview Assets.xcassets */; };
 		AA3D678E2950573C0092E2D6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3D678D2950573C0092E2D6 /* Persistence.swift */; };
 		AA3D67912950573C0092E2D6 /* TaskManagementCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA3D678F2950573C0092E2D6 /* TaskManagementCoreData.xcdatamodeld */; };
+		AA3D679A295059A90092E2D6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3D6799295059A90092E2D6 /* Home.swift */; };
+		AA3D679C295059B80092E2D6 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3D679B295059B80092E2D6 /* TaskViewModel.swift */; };
+		AA3D679E295064640092E2D6 /* DynamicFilteredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3D679D295064640092E2D6 /* DynamicFilteredView.swift */; };
+		AA3D67A02950687C0092E2D6 /* NewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3D679F2950687C0092E2D6 /* NewTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		AA3D678B2950573C0092E2D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA3D678D2950573C0092E2D6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		AA3D67902950573C0092E2D6 /* TaskManagementCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskManagementCoreData.xcdatamodel; sourceTree = "<group>"; };
+		AA3D6799295059A90092E2D6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		AA3D679B295059B80092E2D6 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		AA3D679D295064640092E2D6 /* DynamicFilteredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFilteredView.swift; sourceTree = "<group>"; };
+		AA3D679F2950687C0092E2D6 /* NewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,8 @@
 		AA3D6783295057390092E2D6 /* TaskManagementCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				AA3D67982950598D0092E2D6 /* ViewModel */,
+				AA3D6797295059850092E2D6 /* View */,
 				AA3D6784295057390092E2D6 /* TaskManagementCoreDataApp.swift */,
 				AA3D6786295057390092E2D6 /* ContentView.swift */,
 				AA3D67882950573C0092E2D6 /* Assets.xcassets */,
@@ -71,6 +81,24 @@
 				AA3D678B2950573C0092E2D6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA3D6797295059850092E2D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA3D6799295059A90092E2D6 /* Home.swift */,
+				AA3D679D295064640092E2D6 /* DynamicFilteredView.swift */,
+				AA3D679F2950687C0092E2D6 /* NewTask.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA3D67982950598D0092E2D6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AA3D679B295059B80092E2D6 /* TaskViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +172,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA3D678E2950573C0092E2D6 /* Persistence.swift in Sources */,
+				AA3D679E295064640092E2D6 /* DynamicFilteredView.swift in Sources */,
+				AA3D679C295059B80092E2D6 /* TaskViewModel.swift in Sources */,
 				AA3D6787295057390092E2D6 /* ContentView.swift in Sources */,
+				AA3D679A295059A90092E2D6 /* Home.swift in Sources */,
+				AA3D67A02950687C0092E2D6 /* NewTask.swift in Sources */,
 				AA3D67912950573C0092E2D6 /* TaskManagementCoreData.xcdatamodeld in Sources */,
 				AA3D6785295057390092E2D6 /* TaskManagementCoreDataApp.swift in Sources */,
 			);
